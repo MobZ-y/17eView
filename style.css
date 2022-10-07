@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "font-1";
+  src: url(/Assets/OptimusPrincepsSemiBold.ttf);
+  font-family: "font-2";
+  src: url(./Assets/Napoleon-Bold.ttf);
+}
+
+* {
+  margin: 0px 20px 0px 20px;
+  padding: 0;
+}
+
+/* body règles générals  */
+body {
+  font-family: "font-2";
+  background-color: rgb(236, 235, 235);
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Header */
+
+header {
+  background: url(./Assets/test2.jpg) center/cover;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  text-align: center;
+  padding: 40px 0px 40px 0px;
+}
+
+.left-part-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header img {
+  max-width: 50%;
+}
+
+.right-part-header {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+    flex-wrap: wrap;
+}
+
+.right-part-header h2 {
+  font-family: "font-1";
+  font-size: 50px;
+  color: white;
+}
+
+/* main-info */
+.main-info{
+    background-color: rgb(110, 110, 110);
+    padding: 40px 0px 50px 0px;
+    align-items: center;    
+}
+
+.main-info p{
+    color: white;
+    padding: 0px 70px 0px 70px;  
+}
+
+.main-info a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 0px 0px;
+}
