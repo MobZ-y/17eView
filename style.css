@@ -6,16 +6,15 @@
 }
 
 * {
-  margin: 0px 60px 0px 60px;
   padding: 0;
 }
 
 /* body règles générals  */
 body {
   font-family: "font-2";
-  background-color: rgb(236, 235, 235);
-  margin: 0;
+  background-color: rgb(41, 41, 41);
   min-height: 100vh;
+  margin: 0px 100px 0px 100px;
 }
 
 /* Header */
@@ -41,7 +40,7 @@ header img {
   display: flex;
   justify-content: flex-start;
   align-content: center;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .right-part-header h2 {
@@ -51,27 +50,99 @@ header img {
 }
 
 /* main-info */
-.main-info{
-    background-color: rgb(110, 110, 110);
-    padding: 40px 0px 50px 0px;
-    align-items: center;    
+.main-info {
+  background-color: rgb(231, 231, 231);
+  padding: 40px 0px 50px 0px;
+  align-items: center;
 }
 
-.main-info p{
-    color: white;
-    padding: 0px 70px 0px 70px;  
+.main-info p {
+  color: rgb(0, 0, 0);
+  padding: 0px 70px 0px 70px;
 }
 
-.main-info a{
-    color: white;
-    background-color: black;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 10px;
+.main-info a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.button{
-    display: flex;
-    justify-content: center;
-    padding: 30px 0px 0px 0px;
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px 0px 0px;
+}
+
+/* ***holdfast** */
+
+.Holdfast-part {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgb(114, 114, 114);
+  padding: 10px 0px 10px 0px;
+  color: white;
+}
+
+.holdfast-content {
+  text-align: center;
+  padding: 0px 0px 150px 0px;
+}
+
+.holdfast-content h2{
+  font-size: 30px;
+  color: rgb(255, 240, 34);
+}
+.img {
+  background: url(./Assets/holdfast.png) center/cover;
+  margin: 0px 10px 0px 0px;
+}
+
+/* *****NW*** */
+.NW-part {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgb(114, 114, 114);
+  padding: 10px 0px 10px 0px;
+  color: white;
+}
+
+.NW-content {
+  text-align: center;
+  padding: 0px 0px 150px 0px;
+}
+
+.NW-content h2{
+  font-size: 30px;
+  color: rgb(255, 240, 34);
+}
+.imgNW {
+  background: url(./Assets/napoleonicwars.jpg) center/cover;
+  margin: 0px 10px 0px 0px;
+}
+
+/* *****Histoire*** */
+.histoire{
+  background: white;
+  padding: 0px 50px 40px 50px;
+  text-align: center;
+}
+
+.histoire h2{
+  font-size: 30px;
+  padding: 20px 0px 0px 0px;
+  margin:0;
+}
+
+
+/* *****contact**** */
+
+.contact{
+  background-color: black;
+  padding: 10px 0px 50px 0px;
+}
+
+.contact p {
+  margin: 0;
 }
