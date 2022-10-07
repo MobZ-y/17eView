@@ -59,6 +59,7 @@ header img {
 .main-info p {
   color: rgb(0, 0, 0);
   padding: 0px 70px 0px 70px;
+  font-size: 20px;
 }
 
 .main-info a {
@@ -87,12 +88,17 @@ header img {
 
 .holdfast-content {
   text-align: center;
-  padding: 0px 0px 150px 0px;
+  padding: 0px 0px 450px 0px;
 }
 
-.holdfast-content h2{
-  font-size: 30px;
-  color: rgb(255, 240, 34);
+.holdfast-content p {
+  font-size: 20px;
+  padding: 0px 40px 0px 40px;
+}
+
+.holdfast-content img {
+  width: 40%;
+  padding: 20px 0px 0px 0px;
 }
 .img {
   background: url(./Assets/holdfast.png) center/cover;
@@ -110,39 +116,68 @@ header img {
 
 .NW-content {
   text-align: center;
-  padding: 0px 0px 150px 0px;
+  padding: 0px 0px 450px 0px;
+}
+.NW-content p {
+  font-size: 20px;
+  padding: 0px 40px 0px 40px;
 }
 
-.NW-content h2{
-  font-size: 30px;
-  color: rgb(255, 240, 34);
+.NW-content img {
+  width: 40%;
+  padding: 20px 0px 0px 0px;
 }
 .imgNW {
-  background: url(./Assets/napoleonicwars.jpg) center/cover;
-  margin: 0px 10px 0px 0px;
+  background: url(./Assets/1.png) center/cover;
+  margin: 0px 0px 0px 10px;
 }
 
 /* *****Histoire*** */
-.histoire{
+.histoire {
   background: white;
-  padding: 0px 50px 40px 50px;
+  padding: 0px 70px 100px 70px;
   text-align: center;
 }
 
-.histoire h2{
+.histoire h2 {
   font-size: 30px;
   padding: 20px 0px 0px 0px;
-  margin:0;
+  margin: 0;
 }
 
+.histoire p {
+  font-size: 20px;
+}
 
 /* *****contact**** */
 
-.contact{
+ul {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
   background-color: black;
-  padding: 10px 0px 50px 0px;
+  padding: 10px 0px 0px 0px;
+  margin: 0 ;
+  list-style: none;
+}
+
+a{
+  display: flex;
+  justify-content: center;
 }
 
 .contact p {
   margin: 0;
+}
+
+.contact img {
+  width: 20%;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
+#FSE{
+  width: 30%;
 }
