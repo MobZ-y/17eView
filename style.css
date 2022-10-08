@@ -88,12 +88,12 @@ header img {
 
 .holdfast-content {
   text-align: center;
-  padding: 0px 0px 450px 0px;
+  padding: 0px 0px 40px 0px;
 }
 
 .holdfast-content p {
   font-size: 20px;
-  padding: 0px 80px 0px 80px;
+  padding: 0px 120px 0px 120px;
 }
 
 .holdfast-content img {
@@ -116,11 +116,11 @@ header img {
 
 .NW-content {
   text-align: center;
-  padding: 0px 0px 450px 0px;
+  padding: 0px 0px 40px 0px;
 }
 .NW-content p {
   font-size: 20px;
-  padding: 0px 80px 0px 80px;
+  padding: 0px 120px 0px 120px;
 }
 
 .NW-content img {
@@ -153,7 +153,7 @@ header img {
 
 ul {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 17% 17% 17% 17% 17% 17%;
   background-color: black;
   padding: 10px 0px 0px 0px;
   margin: 0 ;
@@ -183,5 +183,5 @@ a{
 }
 
 .frame{
-  padding-top: 200px;
+  padding-top: 100px;
 }
