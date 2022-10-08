@@ -58,7 +58,7 @@ header img {
 
 .main-info p {
   color: rgb(0, 0, 0);
-  padding: 0px 70px 0px 70px;
+  padding: 0px 170px 0px 170px;
   font-size: 20px;
 }
 
@@ -93,7 +93,7 @@ header img {
 
 .holdfast-content p {
   font-size: 20px;
-  padding: 0px 40px 0px 40px;
+  padding: 0px 80px 0px 80px;
 }
 
 .holdfast-content img {
@@ -120,7 +120,7 @@ header img {
 }
 .NW-content p {
   font-size: 20px;
-  padding: 0px 40px 0px 40px;
+  padding: 0px 80px 0px 80px;
 }
 
 .NW-content img {
@@ -180,4 +180,8 @@ a{
 
 #FSE{
   width: 30%;
+}
+
+.frame{
+  padding-top: 200px;
 }
