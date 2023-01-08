@@ -1,0 +1,181 @@
+main {
+  background: $white1;
+  width: 85%;
+  margin: 0 auto;
+  // height: 2300px;
+  min-height: 100vh;
+
+  @media screen and (max-width: 500px) {
+    width: 100%;
+    margin: 0 auto;
+    // height: 2300px;
+    min-height: 100vh;
+  }
+
+  .histoire-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+
+    h3 {
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+      font-size: 40px;
+      letter-spacing: 5px;
+    }
+
+    p {
+      padding: 40px 100px 50px 100px;
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      text-align: center;
+    }
+
+    img {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+    }
+  }
+
+  .holdfast {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 80% 20%;
+
+    .holdfast-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    p {
+      letter-spacing: 1px;
+      font-family: "font-3";
+      text-align: center;
+      padding: 0px 40px 0px 40px;
+
+      @media screen and (max-width: 795px) {
+        font-size: 13px;
+      }
+      @media screen and (max-width: 574px) {
+        font-size: 11px;
+      }
+    }
+
+    .holdfast-content {
+      background: url(/Assets/img/naval.jpg) center/cover;
+      min-height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 40%;
+
+        @media screen and (max-width: 795px) {
+          width: 50%;
+        }
+        @media screen and (max-width: 574px) {
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  .arrowuptitle {
+    position: fixed;
+    cursor: pointer;
+    right: 1rem;
+    bottom: 2rem;
+    border: 1px solid black;
+    border-radius: 500px;
+    background-color: white;
+    padding: 15px;
+    height: 15px;
+    opacity: 0;
+    transform: translateX(400px);
+    transition: 1s ease-out;
+    
+    a {
+      color: black;
+    }
+
+  }
+
+  .napoleonicwars {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 80% 20%;
+
+    .nw-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    p {
+      letter-spacing: 1px;
+      font-family: "font-3";
+      text-align: center;
+      padding: 0px 40px 0px 40px;
+
+      @media screen and (max-width: 795px) {
+        font-size: 13px;
+      }
+      @media screen and (max-width: 574px) {
+        font-size: 11px;
+      }
+    }
+
+    button {
+      margin: 0;
+    }
+
+    .nw-content {
+      background: url(/Assets/img/napoleonicwars.jpg) center/cover;
+      min-height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 40%;
+
+        @media screen and (max-width: 795px) {
+          width: 50%;
+        }
+        @media screen and (max-width: 574px) {
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  .footer {
+    background: $black1;
+    padding: 20px 0px;
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+
+      li {
+        color: $white1;
+        transition: 0.15s;
+        cursor: pointer;
+        transition-duration: 0.2s;
+
+        &:hover {
+          transform: scale(1.3);
+        }
+      }
+    }
+  }
+}

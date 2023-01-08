@@ -1,0 +1,95 @@
+body{
+    background: url(/Assets/img/test2.jpg) fixed center/cover;
+    
+    
+    
+    &:before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: black;
+        animation: animBefore 1.5s ease forwards;
+        animation-delay: 0.15s;
+    
+        @keyframes animBefore {
+          to {
+            opacity: 0;
+          }
+        }
+      }
+}
+
+@font-face {
+    font-family: "font1";
+    src: url(./fonts/Napoleon-Bold.ttf);
+}
+@font-face {
+    font-family: "font2";
+    src: url(./fonts/OptimusPrincepsSemiBold.ttf);
+}
+
+@font-face {
+    font-family: "font3";
+    src: url(./fonts/FanwoodText-Regular.ttf);
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+$font1: inter-bold, sans-serif;
+$font2: merri, serif;
+$black1: rgb(17, 17, 17);
+$white1: rgb(243, 243, 243);
+$grey1: rgb(209, 209, 209);
+$grey2: rgb(233, 233, 233);
+$grey3: rgb(105, 105, 105);
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:$white1;
+}
+
+button {
+    color: $white1;
+    font-family: "font3";
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: -6px 7px 9px 5px #000000;
+    transition-duration: 0.4s;
+
+
+    &:hover{
+        transform: scale(1.1);
+    }
+
+ 
+  }
