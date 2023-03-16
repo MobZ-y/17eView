@@ -9,15 +9,8 @@ body:before {
   top: 0;
   left: 0;
   background: black;
-  -webkit-animation: animBefore 1.5s ease forwards;
-          animation: animBefore 1.5s ease forwards;
-  -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
-}
-@-webkit-keyframes animBefore {
-  to {
-    opacity: 0;
-  }
+  animation: animBefore 1.5s ease forwards;
+  animation-delay: 0.15s;
 }
 @keyframes animBefore {
   to {
@@ -91,14 +84,7 @@ header .title {
   font-family: "font3";
   opacity: 0;
   transform: translateY(40px);
-  -webkit-animation: headeranim 1.5s forwards;
-          animation: headeranim 1.5s forwards;
-}
-@-webkit-keyframes headeranim {
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+  animation: headeranim 1.5s forwards;
 }
 @keyframes headeranim {
   to {
@@ -166,6 +152,7 @@ header nav {
     bottom: 0;
     left: 0%;
     transform: translateX(0%);
+    justify-content: center;
   }
 }
 header ul {
@@ -182,6 +169,11 @@ header .nav-left li {
   height: 100%;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 500px) {
+  header .nav-left li {
+    font-size: 10px;
+  }
 }
 header .nav-left li:first-child {
   background: rgb(243, 243, 243);
@@ -214,6 +206,11 @@ header .nav-right li:hover {
     opacity: 0;
   }
 }
+@media screen and (max-width: 500px) {
+  header .nav-right {
+    display: none;
+  }
+}
 
 main {
   background: rgb(243, 243, 243);
@@ -224,7 +221,7 @@ main {
 @media screen and (max-width: 500px) {
   main {
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     min-height: 100vh;
   }
 }
@@ -243,11 +240,21 @@ main .histoire-content h3 {
   font-size: 40px;
   letter-spacing: 5px;
 }
+@media screen and (max-width: 500px) {
+  main .histoire-content h3 {
+    font-size: 20px;
+  }
+}
 main .histoire-content p {
   padding: 40px 100px 50px 100px;
   font-size: 20px;
   letter-spacing: 1.5px;
   text-align: center;
+}
+@media screen and (max-width: 500px) {
+  main .histoire-content p {
+    font-size: 10px;
+  }
 }
 main .histoire-content img {
   display: flex;

@@ -7,7 +7,7 @@ main {
 
   @media screen and (max-width: 500px) {
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     // height: 2300px;
     min-height: 100vh;
   }
@@ -26,6 +26,10 @@ main {
       text-transform: uppercase;
       font-size: 40px;
       letter-spacing: 5px;
+
+      @media screen and (max-width: 500px) {
+        font-size: 20px;
+      }
     }
 
     p {
@@ -33,6 +37,10 @@ main {
       font-size: 20px;
       letter-spacing: 1.5px;
       text-align: center;
+
+      @media screen and (max-width: 500px) {
+        font-size: 10px;
+      }
     }
 
     img {
@@ -101,11 +109,10 @@ main {
     opacity: 0;
     transform: translateX(400px);
     transition: 1s ease-out;
-    
+
     a {
       color: black;
     }
-
   }
 
   .napoleonicwars {
